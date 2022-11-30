@@ -1,0 +1,87 @@
+
+:root{
+	--font-montserrat:'Montserrat', sans-serif;
+	--color-terraCotta:#E26D5A;
+	--color-indigoDye:#254E70;
+	--color-verdigris:#28AFB0;
+	--color-alabaster:#ECEBE4;
+	--color-snow:#FAF6F6;
+}
+
+body{
+	font-size: 16px;
+	font-family: var(--font-montserrat);
+	background-color: var(--color-indigoDye);
+	color: var(--color-snow);
+	font-weight: 400;
+}
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*Genericos*/
+
+.borde{
+	border: 1px solid black;
+}
+
+.border-white{
+	border: 1px solid white;
+}
+/*backgrounds-color*/
+.bg-terra{
+ background-color: var(--color-terraCotta);
+}
+.bg-indigo{
+ background-color: var(--color-indigoDye);
+}
+.bg-snow{
+ background-color: var(--color-snow);
+}
+.bg-alabaster{
+ background-color: var(--color-alabaster);
+}
+.bg-verdigris{
+ background-color: var(--color-verdigris);
+}
+/*Imagenes*/
+.image{
+	width: 100%;
+}
+/*Titulos*/
+.title_h2{
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: .8rem;
+}
+
+/*Margenes*/
+
+.mr1{
+	margin-right: 1rem;
+}
+
+
+
+
+.simplescrollup__button {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    transition: 1s all;
+    z-index: 10000;
+}
+
+.simplescrollup__button--show {
+    transform: translateX(0);
+}
+.simplescrollup__button--hide {
+    transform: translateX(120px);
+}
+
+
+
+
+
+
